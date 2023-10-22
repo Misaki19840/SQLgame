@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <p>Select only <span class="highlight-text">the highlighted rows</span>.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>value</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <p class="sql-query"></p>
+        
+        <div class="choices"></div>
+        
+        <p class="feedback"></p>
+
+        <!-- <button id="nextBtn" style="display: none;">Next</button> -->
+        <button id="nextBtn" hidden>Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
